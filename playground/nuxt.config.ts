@@ -4,8 +4,10 @@ export default defineNuxtConfig({
   },
   modules: ['../src/module'],
   vuetify: {
-    theme: {
-      defaultTheme: 'dark',
+    vuetifyOptions: {
+      theme: {
+        defaultTheme: 'dark',
+      }
     }
   },
 })

@@ -6,9 +6,13 @@
     "words": [
         "changelogen",
         "defu",
+        "iconfont",
+        "iconsets",
+        "materialdesignicons",
         "mcfarljw",
         "nuxi",
         "nuxt",
+        "vuejs",
         "vuetify"
     ],
     "ignoreWords": [],

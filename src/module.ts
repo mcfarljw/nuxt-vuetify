@@ -2,8 +2,13 @@ import { defineNuxtModule, addPlugin, createResolver, extendViteConfig } from '@
 import { defu } from 'defu'
 import vuetify from 'vite-plugin-vuetify'
 import { VuetifyOptions } from 'vuetify'
+import { mdi } from 'vuetify/iconsets/mdi'
 
-export default defineNuxtModule<VuetifyOptions>({
+interface ModuleOptions {
+  vuetifyOptions?: VuetifyOptions
+}
+
+export default defineNuxtModule<ModuleOptions>({
   meta: {
     name: '@mcfarljw/nuxt-vuetify',
     configKey: 'vuetify',
@@ -16,12 +21,24 @@ export default defineNuxtModule<VuetifyOptions>({
   async setup (options, nuxt) {
     const resolver = createResolver(import.meta.url)
     const pluginPath = resolver.resolve('./runtime/plugin')
+    const vuetifyOptions = defu(options.vuetifyOptions, {
+      icons: {
+        iconfont: 'mdi',
+        sets: {
+          mdi
+        }
+      }
+    })
 
-    nuxt.options.runtimeConfig.public.vuetify = defu(nuxt.options.runtimeConfig.public.vuetify, options)
+    nuxt.options.runtimeConfig.public.vuetify = defu(nuxt.options.runtimeConfig.public.vuetify, vuetifyOptions)
 
     nuxt.options.build.transpile.push('vuetify')
 
     nuxt.options.css.push('vuetify/styles')
+
+    if (vuetifyOptions.icons.iconfont === 'mdi') {
+      nuxt.options.css.push('@mdi/font/css/materialdesignicons.min.css')
+    }
 
     extendViteConfig((config) => {
       config.plugins?.push(vuetify())
