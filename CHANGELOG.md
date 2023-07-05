@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.1.3
+
+[compare changes](https://undefined/undefined/compare/v1.1.2...v1.1.3)
+
+### 🏡 Chore
+
+- Update vuetify to version 3.3.6 (e64cdf6)
+
+### ❤️  Contributors
+
+- Joshua McFarland
+
 ## v1.1.2
 
 [compare changes](https://undefined/undefined/compare/v1.1.1...v1.1.2)
