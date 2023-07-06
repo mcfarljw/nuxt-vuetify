@@ -8,6 +8,7 @@
     "generate": "nuxi generate"
   },
   "devDependencies": {
+    "@mdi/font": "latest",
     "nuxt": "latest"
   }
 }
