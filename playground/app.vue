@@ -17,6 +17,19 @@
             </div>
           </v-col>
         </v-row>
+
+        <v-row>
+          <v-col class="text-center">
+            <v-btn
+              href="https://github.com/mcfarljw/nuxt-vuetify"
+              prepend-icon="mdi-github"
+              size="large"
+              target="_blank"
+            >
+              github
+            </v-btn>
+          </v-col>
+        </v-row>
       </v-container>
     </v-main>
   </v-app>
