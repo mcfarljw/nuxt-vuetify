@@ -19,6 +19,7 @@
   ],
   "scripts": {
     "dev": "nuxi dev playground",
+    "dev:analyze": "nuxi analyze playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
     "lint": "eslint .",
