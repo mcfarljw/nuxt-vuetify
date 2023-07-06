@@ -1,6 +1,31 @@
 # Changelog
 
 
+## v2.0.0
+
+[compare changes](https://undefined/undefined/compare/v1.1.4...v2.0.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Vuetify options must now be manually declared (8fee8c2)
+
+### 📖 Documentation
+
+- Add github button link to playground (1b99220)
+
+### 🏡 Chore
+
+- Rehydrate package-lock.json (af54da7)
+- Add script to analyze playground (d309312)
+
+#### ⚠️  Breaking Changes
+
+- ⚠️  Vuetify options must now be manually declared (8fee8c2)
+
+### ❤️  Contributors
+
+- Joshua McFarland
+
 ## v1.1.4
 
 [compare changes](https://undefined/undefined/compare/v1.1.3...v1.1.4)
