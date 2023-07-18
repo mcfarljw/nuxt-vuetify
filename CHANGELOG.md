@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v2.0.1
+
+[compare changes](https://undefined/undefined/compare/v2.0.0...v2.0.1)
+
+### 🩹 Fixes
+
+- Added vuetify typings to module public runtime (1d31c25)
+
+### 🏡 Chore
+
+- Update vuetify to version 3.3.8 (0229194)
+- Update dependencies (046383a)
+
+### ❤️  Contributors
+
+- Joshua McFarland
+
 ## v2.0.0
 
 [compare changes](https://undefined/undefined/compare/v1.1.4...v2.0.0)
