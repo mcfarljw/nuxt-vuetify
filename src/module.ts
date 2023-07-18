@@ -7,6 +7,12 @@ interface ModuleOptions {
   vuetifyOptions?: Partial<VuetifyOptions>
 }
 
+declare module 'nuxt/schema' {
+  interface PublicRuntimeConfig {
+    vuetify: Partial<VuetifyOptions> | undefined
+  }
+}
+
 export default defineNuxtModule<ModuleOptions>({
   meta: {
     name: '@mcfarljw/nuxt-vuetify',
