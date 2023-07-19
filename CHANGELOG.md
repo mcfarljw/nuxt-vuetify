@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v2.0.2
+
+[compare changes](https://undefined/undefined/compare/v2.0.1...v2.0.2)
+
+### 🏡 Chore
+
+- Update vuetify to version 3.3.9 (081153c)
+
+### ❤️  Contributors
+
+- Joshua McFarland
+
 ## v2.0.1
 
 [compare changes](https://undefined/undefined/compare/v2.0.0...v2.0.1)
