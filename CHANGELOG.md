@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v3.0.0
+
+[compare changes](https://undefined/undefined/compare/v2.0.2...v3.0.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Make vuetify 3 peer dependency (da06b77)
+
+#### ⚠️  Breaking Changes
+
+- ⚠️  Make vuetify 3 peer dependency (da06b77)
+
+### ❤️  Contributors
+
+- Joshua McFarland
+
 ## v2.0.2
 
 [compare changes](https://undefined/undefined/compare/v2.0.1...v2.0.2)
